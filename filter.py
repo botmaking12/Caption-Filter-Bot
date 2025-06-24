@@ -16,4 +16,4 @@ async def search_file(bot, message):
     if text:
         await message.reply(text)
     else:
-        await message.reply("😔 Koi result nahi mila.")
+        await message.reply("😥ᴍᴜᴊᴇ ᴀʙʜɪ ᴋᴏɪ ᴠɪᴅᴇᴏ ᴏʀ ꜰɪʟᴇ ɴᴀʜɪ ᴍɪʟɪ ʜᴀɪ,ᴋʀɪᴘɪʏᴀ ᴠɪᴅᴇᴏꜱ ᴏʀ ꜰɪʟᴇ ʙʜᴇᴊᴇ, ᴏʀ ᴍᴏᴠɪᴇ ᴋᴀ ɴᴀᴍᴇ ʟɪᴋʜᴇ, ᴅʜᴀɴʏᴠᴀᴅ..!")
