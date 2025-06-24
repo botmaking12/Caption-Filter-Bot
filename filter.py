@@ -10,7 +10,7 @@ async def search_file(bot, message):
     results = collection.find({"title": {"$regex": query, "$options": "i"}})
 
     text = ""
-    async for r in results:
+    for r in results:
         text += f"📁 {r['title']}\n🔗 {r['link']}\n\n"
 
     if text:
